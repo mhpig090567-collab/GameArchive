@@ -58,13 +58,13 @@
 
 - [x] generate_image로 게임 썸네일 이미지 8개 생성
 - [x] `assets/images/`에 이미지 배치 및 games.json 경로 연결
-- [/] 전체 통합 테스트: 탐색 → 필터 → 호버 → 클릭 플로우
-- [ ] 검증: 모든 이미지 정상 로드, 전체 플로우 동작 확인
+- [x] 전체 통합 테스트: 탐색 → 필터 → 호버 → 클릭 플로우
+- [x] 검증: 모든 이미지 정상 로드, 전체 플로우 동작 확인
 
 ---
 
 ## 최종 단계 (B-6)
 
-- [ ] `Agent/Project/REPORT.md` 작성
-- [ ] Git commit (모든 변경사항)
-- [ ] 사용자 평가 요청
+- [x] `Agent/Project/REPORT.md` 작성
+- [x] Git commit (모든 변경사항) — `eb5bafe`
+- [/] 사용자 평가 요청
