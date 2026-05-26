@@ -1,0 +1,68 @@
+{
+  "games": [
+    {
+      "id": "space-drift",
+      "title": "Space Drift",
+      "category": "arcade",
+      "thumbnail": "assets/images/space-drift.png",
+      "description": "우주를 떠도는 비행선을 조종하며 장애물을 피하세요.",
+      "featured": true
+    },
+    {
+      "id": "puzzle-blocks",
+      "title": "Puzzle Blocks",
+      "category": "puzzle",
+      "thumbnail": "assets/images/puzzle-blocks.png",
+      "description": "블록을 맞춰 줄을 완성하는 클래식 퍼즐 게임.",
+      "featured": false
+    },
+    {
+      "id": "dungeon-tactics",
+      "title": "Dungeon Tactics",
+      "category": "strategy",
+      "thumbnail": "assets/images/dungeon-tactics.png",
+      "description": "던전 속 몬스터를 전략적으로 처치하세요.",
+      "featured": true
+    },
+    {
+      "id": "neon-racer",
+      "title": "Neon Racer",
+      "category": "arcade",
+      "thumbnail": "assets/images/neon-racer.png",
+      "description": "네온 도시를 질주하는 레이싱 게임.",
+      "featured": false
+    },
+    {
+      "id": "word-chain",
+      "title": "Word Chain",
+      "category": "puzzle",
+      "thumbnail": "assets/images/word-chain.png",
+      "description": "끝말잇기로 어휘력을 테스트하세요.",
+      "featured": false
+    },
+    {
+      "id": "battle-arena",
+      "title": "Battle Arena",
+      "category": "multiplayer",
+      "thumbnail": "assets/images/battle-arena.png",
+      "description": "친구와 함께 실시간 배틀 아레나에서 싸우세요.",
+      "featured": true
+    },
+    {
+      "id": "castle-defense",
+      "title": "Castle Defense",
+      "category": "strategy",
+      "thumbnail": "assets/images/castle-defense.png",
+      "description": "성을 지키며 적의 공격을 막아내세요.",
+      "featured": false
+    },
+    {
+      "id": "color-match",
+      "title": "Color Match",
+      "category": "puzzle",
+      "thumbnail": "assets/images/color-match.png",
+      "description": "같은 색을 빠르게 매칭하는 반응 속도 게임.",
+      "featured": false
+    }
+  ]
+}

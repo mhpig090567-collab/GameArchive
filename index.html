@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="다양한 웹 게임을 한곳에서 즐기세요. 퍼즐, 아케이드, 전략, 멀티플레이어 게임을 지금 바로 플레이하세요.">
+  <title>GameVerse — 웹 게임 플랫폼</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="/" class="header__logo" id="logo">
+        <span class="header__logo-icon">🎮</span>
+        <span class="header__logo-text">GameVerse</span>
+      </a>
+
+      <nav class="header__nav" id="nav" aria-label="메인 내비게이션">
+        <a href="#" class="header__nav-link header__nav-link--active" data-section="home">홈</a>
+        <a href="#games" class="header__nav-link" data-section="games">게임</a>
+        <a href="#" class="header__nav-link" data-section="new">신규</a>
+        <a href="#" class="header__nav-link" data-section="popular">인기</a>
+      </nav>
+
+      <div class="header__search" id="search-container">
+        <span class="header__search-icon">🔍</span>
+        <input
+          type="search"
+          class="header__search-input"
+          id="search-input"
+          placeholder="게임 검색..."
+          aria-label="게임 검색"
+        >
+      </div>
+
+      <div class="header__actions">
+        <div class="header__profile" id="profile-btn" aria-label="프로필">G</div>
+      </div>
+
+      <button class="header__menu-toggle" id="menu-toggle" aria-label="메뉴 열기">☰</button>
+    </div>
+  </header>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero" id="hero">
+    <div class="container">
+      <div class="hero__slider" id="hero-slider">
+        <!-- Slides rendered by JS -->
+
+        <button class="hero__arrow hero__arrow--prev" id="hero-prev" aria-label="이전 슬라이드">◀</button>
+        <button class="hero__arrow hero__arrow--next" id="hero-next" aria-label="다음 슬라이드">▶</button>
+      </div>
+
+      <div class="hero__dots" id="hero-dots">
+        <!-- Dots rendered by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CATEGORIES FILTER ===== -->
+  <section class="categories" id="categories">
+    <div class="container">
+      <ul class="categories__list" id="categories-list" role="tablist" aria-label="게임 카테고리">
+        <li><button class="categories__btn categories__btn--active" data-category="all" role="tab" aria-selected="true">전체</button></li>
+        <li><button class="categories__btn" data-category="arcade" role="tab" aria-selected="false">🕹️ 아케이드</button></li>
+        <li><button class="categories__btn" data-category="puzzle" role="tab" aria-selected="false">🧩 퍼즐</button></li>
+        <li><button class="categories__btn" data-category="strategy" role="tab" aria-selected="false">♟️ 전략</button></li>
+        <li><button class="categories__btn" data-category="multiplayer" role="tab" aria-selected="false">👥 멀티플레이어</button></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===== GAMES GRID ===== -->
+  <main class="games" id="games">
+    <div class="container">
+      <div class="games__header">
+        <h1 class="games__title">모든 게임</h1>
+        <span class="games__count" id="games-count"></span>
+      </div>
+      <div class="games__grid" id="games-grid">
+        <!-- Cards rendered by JS -->
+      </div>
+    </div>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" id="footer">
+    <div class="container footer__inner">
+      <p class="footer__copy">&copy; 2026 GameVerse. All rights reserved.</p>
+      <nav class="footer__links" aria-label="푸터 링크">
+        <a href="#" class="footer__link">이용약관</a>
+        <a href="#" class="footer__link">개인정보처리방침</a>
+        <a href="#" class="footer__link">문의하기</a>
+      </nav>
+      <div class="footer__socials">
+        <a href="#" class="footer__social" aria-label="GitHub">⌨</a>
+        <a href="#" class="footer__social" aria-label="Twitter">𝕏</a>
+        <a href="#" class="footer__social" aria-label="Discord">💬</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Main Script -->
+  <script src="js/main.js"></script>
+</body>
+</html>
